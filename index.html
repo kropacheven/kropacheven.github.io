@@ -9,17 +9,18 @@
     <title>Egor K</title>
   </head>
   <body id='home' data-bs-spy="scroll" data-bs-target=".navbar">
+
     <!-- nav -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#home">EK</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">EK</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -28,13 +29,21 @@
               <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href='#plans'>Plans</a>
+              <a class="nav-link" href="#plans">Plans</a>
             </li>
           </ul>
+          <div class="flex">
+            <a class="navbar-brand fs-6" href="https://github.com/kropacheven" target="_blank"> 
+              My Projects on GitHub
+              <img src="svg/github.svg" alt="" width="35" height="35">
+            </a>
+          </div>
         </div>
       </div>
     </nav>
-    <!-- /nav -->
+    <!-- nav -->
+
+
     <!-- jumbotron  -->
     <div id='about' class="container my-4 p-5 bg-secondary text-white rounded text-center">
       <h1 class='display-1'>Egor Kropachev</h1> 
@@ -170,24 +179,42 @@
     <!-- /plans -->
 
     <!-- footer -->
-    <div class="row py-3">
-      <div class="col-md"> 
-        <ul class="nav navbar-dark bg-dark py-2">
-          <li class="nav-item">
-            <img src='svg/facebook.svg' alt='Facebook'>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#plans">Plans</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-6" href="#">2022 @Egor Kropachev</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#plans"></a>
+            </li>
+          </ul>
+          <div class="flex">
+            <a class="navbar-brand fs-6" href="https://github.com/kropacheven" target="_blank"> 
+              <img src="svg/facebook.svg" alt="" width="35" height="35">
+            </a>
+            <a class="navbar-brand fs-6" href="https://github.com/kropacheven" target="_blank"> 
+              <img src="svg/twitter.svg" alt="" width="35" height="35">
+            </a>
+            <a class="navbar-brand fs-6" href="https://github.com/kropacheven" target="_blank"> 
+              <img src="svg/instagram.svg" alt="" width="35" height="35">
+            </a>
+          </div>
+        </div>
       </div>
-    </div><!-- /footer -->
+    </nav>
+    <!-- /footer -->
 
 
     <!-- Optional JavaScript; choose one of the two! -->
