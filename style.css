@@ -38,15 +38,16 @@
 
 
 .profile-image {
-    margin-top: 50px;
-    width: 235px;
-    height: 235px;
+    margin-top: 40px;
+    width: 270px;
+    height: 250px;
     border-radius: 60%;
     border: 5px solid white;
     transition: all .7s;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .profile-image:hover {
-    transform: scale(1.5) rotate(10deg);
+    transform: scale(1.1) rotate(5deg);
   }
+
